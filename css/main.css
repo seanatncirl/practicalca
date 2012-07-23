@@ -1,0 +1,26 @@
+
+      #header,#footer,#content,#nav,#minor  {
+          margin-bottom: 10px;
+          background-color: lightgrey;
+          }
+      #headertext { float: right; font-size: 40px; margin-right:50px; 
+                    font-family: Verdana; color: brown}
+      #container { width: 85% ; margin-left: auto; margin-right: auto }
+      #header { position: relative; }
+      #logotext { position: absolute; bottom: 10px; left: 70px; 
+                  font-size: 12px; color: black; background-color: yellow;
+                  padding-left: 5px; padding-right: 5px;}
+      #content,#minor  { float: left ; }
+      #minor  { width: 28% }
+      #content { width: 70% }
+      #content p { padding: 15px; }
+      #minor  { margin-left: 2%;}
+      #footer { clear: both }
+      ul#navmenu { float: left; list-style-type: none; background-color: black; width:80%}
+      ul#navmenu li { float: left }
+      ul#navmenu li a { float: left ; text-decoration: none; padding: 5px; color: white;}
+      ul#navmenu li a:hover { text-decoration: underline;}
+      #sidebar { clear: both }
+      .headr { width: 90%; margin-left: auto; margin-right: auto }
+      #minor h3 { color: blue }
+ 
